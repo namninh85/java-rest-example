@@ -14,7 +14,7 @@ public class IndexController {
     
     @GetMapping("/test")
         public String error(HttpServletRequest request) {
-            return getClientIp(request)
+            return getClientIp(request);
         }
     
     private static String getClientIp(HttpServletRequest request) {
